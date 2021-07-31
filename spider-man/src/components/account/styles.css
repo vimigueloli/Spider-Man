@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
 .container{
     position: relative;
     width: 40%;
-    height: 100vh;
+    height: 90vh;
     border-right: solid 1px #ad1426;
+    border-bottom: solid 1px #ad1426;
 }
 .cover{
     width: 100%;
@@ -19,7 +23,7 @@
     align-content: center;
     justify-content: space-between;
     width: 40%;
-    margin-top: 20vh;
+    margin-top: 22vh;
     margin-left: 20%;
 }
 
@@ -31,7 +35,13 @@
 }
 
 .user-data{
-    
     height: 8vh;
+    font-family: 'Barlow', sans-serif;
     padding-left: 5%;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.nick{
+    font-family: 'Barlow', sans-serif;
 }

@@ -6,17 +6,26 @@ export function Account(){
     return(
         <section className="container">
             <div className="cover">
-                <h1>emoji - seguidores</h1>
+                <a>emoji - seguidores</a>
                 <div className="user">
                     <Perfil/>
                     <div className="divisor" />
                     <div className="user-data">
-                        <h1 className="name">nome</h1>
-                        <h2 className="nick">@nick</h2>
+                        <div>
+                            <a className="name">nome</a>
+                        </div>
+                        <div>
+                            <a className="nick">@nick</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+            <div className="bio">
+                <a className="bio-text">your friendly neighborhood web-slinger Spider Man</a>
+                <div>
+                    <img src='../../assets/toonSpider.png' />
+                </div>
+            </div>
             
         </section>
     );
