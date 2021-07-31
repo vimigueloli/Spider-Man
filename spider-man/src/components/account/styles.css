@@ -23,7 +23,7 @@
     align-content: center;
     justify-content: space-between;
     width: 40%;
-    margin-top: 22vh;
+    margin-top: 21vh;
     margin-left: 20%;
 }
 
@@ -44,4 +44,24 @@
 
 .nick{
     font-family: 'Barlow', sans-serif;
+}
+
+.bio{
+    position: relative;
+    overflow: hidden;
+    margin-top: 0%;
+    height: 55vh;
+}
+
+.bio-text{
+    margin-left: 12%;
+    margin-top: 5vh;
+    margin-right:8% ;
+    display: inline-block;
+}
+
+.toon{
+    width: auto;
+    height: 25vh;
+    position: absolute;
 }

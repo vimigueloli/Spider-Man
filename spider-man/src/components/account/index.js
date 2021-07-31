@@ -22,9 +22,7 @@ export function Account(){
             </div>
             <div className="bio">
                 <a className="bio-text">your friendly neighborhood web-slinger Spider Man</a>
-                <div>
-                    <img src='../../assets/toonSpider.png' />
-                </div>
+                <img className="toon" alt="spider toon" src='https://raw.githubusercontent.com/vimigueloli/Spider-Man/main/spider-man/src/assets/toonSpider.png' />
             </div>
             
         </section>
