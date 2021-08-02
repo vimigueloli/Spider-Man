@@ -7,6 +7,7 @@
     height: 90vh;
     border-right: solid 1px #ad1426;
     border-bottom: solid 1px #ad1426;
+    background-color: #07111b;
 }
 .cover{
     width: 100%;
@@ -62,6 +63,62 @@
 
 .toon{
     width: auto;
-    height: 25vh;
+    height: 20vh;
     position: absolute;
+}
+
+
+.localInfo{
+    border-top: solid 1px #ad1426;
+    position: absolute;
+    margin-top: 25vh;
+    height:23vh;
+    width: 85%
+
+}
+
+.location{
+    border-right: solid 1px #ad1426;
+    position: absolute;
+    margin-top: 0;
+    height:23vh;
+    width: 58%;
+}
+
+.Info{
+    position: absolute;
+    height: 30vh;
+    width: 60%;
+    margin-left: 58%;
+}
+
+.location-data{
+    margin-left: 10%;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 16vh;
+    text-align: center;
+}
+
+.sky-bar{
+    border-top: 1px solid #ad1426;
+    border-left: 1px solid #ad1426;
+    background-image: linear-gradient(#000912, #0009122d);
+    margin-left: 25%;
+    width: 95%;
+    height: 3.5vh;
+    transform: perspective(2px) rotateX(2deg);
+}
+.sky-status{
+    justify-content: center;
+    width: 95%;
+    height: 3.5vh;
+    transform: translate(0,-3vh);
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
 }

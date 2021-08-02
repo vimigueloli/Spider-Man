@@ -1,0 +1,32 @@
+.feed{
+    border: 1px solid #b40a2f;
+    width: 60%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.header{
+    background-color: #0000005d;
+    border-bottom: #b40a2f 1px solid;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding-left: 1%;
+}
+
+.divider{
+    width: 1px;
+    height: 10vh;
+    background-color: #b40a2f;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.posts{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
